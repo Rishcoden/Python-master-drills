@@ -1,0 +1,5 @@
+n = input()
+str1 = ""
+for i in n:
+    str1 = i+str1
+print(str1)

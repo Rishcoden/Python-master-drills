@@ -1,0 +1,19 @@
+''' question Average Grade
+>=80 and above A
+>=70 and <80 B
+>=60 and <70 C
+>=50 and <60 D
+Otherwise E '''
+
+a = int(input("Enter your marks "));
+if a>=80:
+    print("A")
+elif a>=70 and a<80:
+    print("B")
+elif a>=60 and a<70:
+    print("C")
+elif a>=50 and a<60:
+    print("D")
+else:
+    print("E")
+
